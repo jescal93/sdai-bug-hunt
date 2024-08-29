@@ -4,14 +4,14 @@ body {
   padding: 0;
 }
 
-header {
+.header {
   background-color: #282c34;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-main {
+.main {
   padding: 20px;
 }
 
@@ -19,18 +19,22 @@ img {
   max-width: 100%;
 }
 
-ul {
+.ul {
   list-style-type: none;
   padding: 0;
 }
 
-button {
+#funFactButton {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #61dafb;
   border: none;
   color: white;
   cursor: pointer;
+}
+
+#funFact {
+  display: none;
 }
 
 button:hover {
